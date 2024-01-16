@@ -1,0 +1,628 @@
+*conainer{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+ .bgbox{
+    position: relative;
+    padding-left: 250px; 
+    background-color:  #75757544;
+    margin-top: 70px;
+}
+
+.flexboxrow{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 80px; */
+    width: 80%;
+    /* border: solid 3px red; */
+}
+
+
+.threeheader{
+    display: flex;
+    flex-direction: column;
+}
+
+.header1cont{
+    margin-left: 30px;
+}
+
+
+.header1{
+    background-color: rgb(12, 12, 46);
+    height: 40px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+.header2{
+    background-color: whitesmoke;
+    height: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    margin: 0%;
+}
+
+.h2{
+    color: orangered;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.anchor{
+    margin-left: 380px;
+    text-align: center;
+    height: 100%;
+    /* margin-top: 0%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+    height: 100%; */
+}
+
+.anchor a{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+
+.anchor a:hover{
+    background-color: orangered;
+    color: white;   
+}
+
+/* 
+.anchor a{
+    font-size: 20px;
+    padding: 18px;
+    height: 100%;
+    margin: 0px;
+}
+
+.anchor a{
+    text-decoration: none;
+    color: black;
+} */
+
+
+
+ 
+.quote a{
+    color: white;
+    background-color: rgb(255, 68, 0);
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    right: 0%;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top:60px;
+    font-size: 20px;
+}
+
+.quote a:hover{
+    background-color: rgba(185, 62, 17, 0.884);
+} 
+
+/* ----------------------------------------------------- Header 3 ---------------------------------- */
+
+.header3{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),  url('header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    margin-top: 0%;
+    border: 0px;
+    position: relative;
+    
+}
+
+.header3 h1{
+    color: orangered;
+    margin-top: 110px;
+    margin-bottom: 25px;
+    margin-left: 55px;
+    padding-bottom: 0px;
+    font-size: 40px;
+
+
+}
+
+.header3 h2{
+    color: white;
+    font-size: 80px;
+    font-stretch: expanded;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 0%;
+    margin-left: 95px;
+}
+
+.header3 input{
+    width: 380px;
+    height: 60px;
+    padding-left: 20px;
+    border: 0px;
+  
+    
+}
+.tracking button{
+    height: auto;
+    background-color: orangered;
+    border: 0px;
+    width: 120px;
+    color: white;
+    border: 0px;
+}
+
+.tracking button:hover{
+    background-color: rgba(255, 68, 0, 0.747);
+}
+
+.tracking{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25px;
+    margin-bottom: 0%;
+    border: 0px;
+}
+
+.header3text{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%; 
+    margin: auto;
+    width: 800px;
+    height: 100%;
+  
+}
+
+/* ----------------------body-------------- */
+
+.aboutbody{
+    position: relative;
+    padding-left: 250px;
+
+  }
+
+.aboutcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 80%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aboutimg {
+    background: url('about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;    
+}
+
+.years{
+    width: 500px;
+    height: 70px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.years h1{
+    color:  rgb(12, 12, 46);
+    font-size: 25px;
+  
+}
+
+.abouttext{
+    /* width: 600px;
+    height: 300px; */
+    margin-left: 30px;
+    margin-top: 50px;
+    border:  0px;
+}
+
+.abouttext h3{
+    color: orangered;
+    border: solid 2px blue;
+}
+
+.abouttext p{
+    font-size: 20px;
+}
+
+
+/* ---------------------------------------------- request a quote------------------------------------------ */
+
+
+
+.quotebg{
+    background-color:  #75757544;
+    margin-top: 70px;
+    padding-left: 250px;
+}
+
+
+/* 
+.quotebox{
+    display: flex;
+    flex-direction: row;
+    border: solid purple 5px;
+    padding-left: 225px;
+}  */
+
+/* 
+.quote{
+    border: solid 5px green;
+    width: 600px;
+    padding-top: 50px;
+} */
+.quote h3{
+    color: orangered;
+    border: solid 2px blue;
+}
+
+.quote{
+    margin-right: 0px;
+    padding-top: 50px;
+}
+
+.form{
+    background-color: orangered;   
+    width: 400px; 
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 30px;
+    border: 0px;
+}
+
+.form input{
+    height: 35px;
+    width: 327px;
+    margin: 10px;
+    padding-left: 25px;
+    border: 0px;
+    
+   
+}
+.form select{
+    width: 355px;
+    height: 45px;
+    margin: 10px;
+    padding-left: 25px;
+    border: 0px;
+}
+
+.form button{
+    width: 357px;
+    height: 45px;
+    margin: 10px;
+    background-color: rgba(12, 12, 46, 0.863);
+    color: white;
+    border: 0px;
+}
+.form button:hover{
+    background-color: rgba(12, 12, 46, 0.795);
+}
+
+
+/* ------------------------------------------------- Services ----------------------- */
+
+.servicebg{
+    position: relative;
+    padding-left: 250px;
+}
+
+
+.services{
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+/* .serviceflex{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    background-color: blue;
+} */
+
+.serviceH{
+    padding-left: 280px;
+    padding-bottom: 0%;
+    margin-top: 70px;
+    
+}
+
+.serviceH h3{
+    color: orangered;
+    font-size: 30px;
+    margin-bottom: 2px;
+    width: 200px;
+    margin-left: 150px;
+}
+
+.serviceH h1{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+.servicetype h1{
+    background-color: orangered;
+    margin: 15px;
+    font-size: 20px;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: lighter;
+
+}
+.servicetype p{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}  
+/* 
+.airservices, .oceanservices, .landservices, .cargoservices{
+    border: solid blue 3px;
+  
+}
+
+.servicetype h1{
+    font-size: 25px;
+    background-color: orangered; */
+
+
+/* -------------------------------------------- why choose us --------------------------------------- */
+
+.chooseusbg{
+    position: relative;
+    padding-left: 250px;
+    background-color:  #75757544;
+    margin-top: 70px;
+}
+
+.ship{
+    background-image: url('feature.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 400px;
+    height: 500px;
+}
+
+.text{
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 0%;
+}
+.text h1{
+    color: rgb(12, 12, 46);
+}
+
+.text p{
+    font-size: 20px;
+}
+
+.text h3{
+    color: orangered;
+    border: solid 2px blue;
+}
+
+.text a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.text h2{
+    background-color: orangered;
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+.text ul{
+    list-style:circle;
+    margin-top: 25px;
+    color: rgb(12, 12, 46);
+}
+
+
+
+/* ------------------------------------- PRICING PLAN ------------------------------- */
+
+.pricingbg{
+    position: relative;
+    padding-left: 250px; 
+    margin-top: 70px;
+    position: relative;
+}
+
+.htag {
+     text-align: center;
+    padding-right: 260px; 
+}  
+
+.htag h3{
+    color: orangered;
+}
+
+.htag h1{
+    color: rgb(12, 12, 46);
+    font-weight: bolder;
+
+}
+
+.prices{
+    width: 350px;
+    height: 480px;
+    background-color:  #75757544;
+    position: relative;
+}
+
+.prices h3, h4, h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.prices p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.prices h1{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    color: rgb(12, 12, 46);
+}
+
+.prices h2{
+    background-color: orangered;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    color: rgb(12, 12, 46);
+}
+
+
+.prices a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 27px;
+    margin: auto;
+    text-align: center;
+    height: 28px;
+    width: 148px;
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 6px;
+
+
+}
+
+
+.price2, .price3{
+    margin-left: 30px;
+}
+
+/* ---------------------------------------------- Delivery Team ---------------------------------  */
+
+.dteambg{
+    position: relative;
+    padding-left: 250px; 
+    margin-top: 70px;
+    position: relative;
+}
+
+.dteamhead h1{
+    margin-top: 0px;
+
+}
+
+.dteamhead h3{
+    color: orangered;
+    margin-bottom: 1px;
+}
+
+.dteamhead{
+    padding-right: 260px; 
+    text-align: center;
+}
+
+.teams img{
+    width: 250px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+}
+
+.teams{
+    background-color: #75757544;
+    border: 0px;
+}
+
+.Tname h1, h2{
+    text-align: center;
+    font-size: 20px;
+    border: 0px
+}
+.Tname{
+    margin-top: 0px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    border-bottom: solid 4px orangered;
+}
+.teams h2{
+    margin-top: 3px;
+}
+.teams h1{
+    margin-bottom: 2px;
+}
+.team-2, .team-3, .team-4{
+    margin-left: 22px;
+}
+
